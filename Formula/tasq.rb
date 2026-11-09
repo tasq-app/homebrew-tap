@@ -1,28 +1,28 @@
 class Tasq < Formula
   desc "Capture your notes, plan your routines from the terminal"
   homepage "https://github.com/tasq-app/tasq"
-  version "0.9.1"
+  version "0.10.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/tasq-app/tasq/releases/download/v#{version}/tasq-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "3d40d09db754079fbb5319329adad27632a5f9e717b0a4d2eadad5bd9f6e6a32"
+      sha256 "02aacb396e618f1ac0f80184543e3bc794788c7b6b8c8169dc11958b985c9e66"
     end
     on_intel do
       url "https://github.com/tasq-app/tasq/releases/download/v#{version}/tasq-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "fa16bb7586fd9916457c514559f6857fd15b259f07005ac30077b4973cff6507"
+      sha256 "7716b40a490cccdac72f5c3c5d330ebfa09e3cc49f681f5a52e6913cfb19774d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/tasq-app/tasq/releases/download/v#{version}/tasq-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6349cdd9602f63dc1b2b1451b8d5526c99d1a6226c2a7d7850533ccf90aece27"
+      sha256 "5b289a8e54db5cd285dc86695fa663362aec716cc501fa440476c9f1a5e74e73"
     end
     on_intel do
       url "https://github.com/tasq-app/tasq/releases/download/v#{version}/tasq-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "559b7dd26cf14317fbb568219d0c4f8725382f678d6c5e3cf379feab865edb27"
+      sha256 "1545f72345f63cd5eff3b52f8353d1461d85192058914079708606b4cabdd8d5"
     end
   end
 
